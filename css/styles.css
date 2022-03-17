@@ -42,3 +42,20 @@ body{
     display: flex;
     height: 50px;
 }
+
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: auto;
+}
+
+li{
+    display: flex;
+    list-style-type: none;
+
+}
+
+a{
+    text-decoration: none;
+}
