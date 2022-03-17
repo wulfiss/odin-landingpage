@@ -1,0 +1,33 @@
+.header{
+    background-color: red;
+}
+
+.container.one{
+    background-color: yellow;
+}
+
+.container.two{
+    background-color: green;
+}
+
+.container.three{
+    background-color: gray;
+}
+
+.container.four{
+    background-color: brown;
+}
+
+.footer{
+    background-color: blue;
+}
+
+body{
+    display: flex;
+    flex-flow: column;
+    height: auto;
+}
+
+.container, .header, .footer{
+    height: 200px;
+}
