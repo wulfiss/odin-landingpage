@@ -71,10 +71,34 @@ a{
 
 .container.one{
     background-color: #1f2937;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .main-text{
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
+}
+
+.secondary-text, #button-one{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+}
+
+#button-one{
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+}
+
+.image-holder{
+    width: 200px;
+    height: 150px;
+    background-color: aliceblue;
 }
