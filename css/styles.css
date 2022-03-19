@@ -2,10 +2,6 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container.two{
-    background-color: green;
-}
-
 .container.three{
     background-color: gray;
 }
@@ -103,7 +99,7 @@ button{
     align-self: flex-end;
     width: 500px;
     height: 290px;
-    background-color: aliceblue;
+    background-color: #e5e7eb;
 }
 
 .main-text, .secondary-text{
@@ -119,7 +115,7 @@ button{
 }
 
 .two-subcontainer{
-    flex: 1;
+    flex: 1 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -129,14 +125,24 @@ button{
 }
 
 .square{
-    border: 4px solid black;
-    width: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 120px;
     height: 100px;
-    margin: 25px 25px 0px 25px;
+    margin: 20px 20px 0px 20px;
 }
 
 .square-text{
+    text-align: center;
+    font-size: 14px;
     width: 100px;
     height: 100px;
     margin: 0px 25px 25px  25px;
+    color: #636569b7;
+}
+
+.text-two{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
