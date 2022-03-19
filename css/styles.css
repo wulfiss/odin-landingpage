@@ -1,9 +1,6 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.container.one{
-    background-color: yellow;
-}
 
 .container.two{
     background-color: green;
@@ -70,9 +67,11 @@ a{
 }
 
 .container.one{
+    height: 300px;
     background-color: #1f2937;
     display: flex;
     flex-flow: column wrap;
+    gap: 30px;
 }
 
 .main-text{
@@ -98,7 +97,12 @@ button{
 }
 
 .image-holder{
-    width: 200px;
-    height: 150px;
+    align-self: flex-end;
+    width: 500px;
+    height: 290px;
     background-color: aliceblue;
+}
+
+.main-text, .secondary-text{
+    width: 500px;
 }
