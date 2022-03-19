@@ -2,10 +2,6 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container.four{
-    background-color: brown;
-}
-
 body{
     display: flex;
     flex-flow: column;
@@ -85,6 +81,7 @@ button{
     background-color: #3882f6;
     color: white;
     font-size: 18px;
+    border: 0ex;
 }
 
 .image-holder{
@@ -156,6 +153,39 @@ button{
     text-align: end;
 }
 
-.testimony-author, .testimony-text{
-    padding: 10px;
+.container.four{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer-four{
+    display: flex;
+    flex-grow: 0;
+    width: 1103px;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.mainfour{
+    display: flex;
+    flex-flow: column wrap;
+    color: #f9faf8;
+}
+
+.text-four{
+    font-size: 20px;
+}
+
+#button-two{
+    background-color: #3882f6;
+    color: #3882f6;
+    font-size: 18px;
+    color: #f9faf8;
+    border: 3px solid #f9faf8;
 }
