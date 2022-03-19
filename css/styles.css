@@ -109,3 +109,11 @@ button{
 .main-text, .secondary-text{
     width: 500px;
 }
+
+.container.two{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
