@@ -2,10 +2,6 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container.three{
-    background-color: gray;
-}
-
 .container.four{
     background-color: brown;
 }
@@ -146,5 +142,20 @@ button{
 }
 
 .container.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 300px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.testimony-author{
+    font-size: 25px;
+    text-align: end;
+}
+
+.testimony-author, .testimony-text{
+    padding: 10px;
 }
